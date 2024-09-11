@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url(/images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    /* width: 90rem; */
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 40px;
+    padding-top: 60px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+header nav ul li .contact{
+    /* border: 20px solid black; */
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+header .arrow{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+header img.logo:hover{
+    cursor: pointer;
+}
+
+/* body{
+    padding: 10px;
+    margin: 10px;
+    height: 45rem;
+    width: 60rem;
+} */
+.second{
+    display: flex;
+    /* gap: 20px; */
+    height: 550px;
+    width: 100%;
+    
+}
+
+.words{
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    /* padding: 110px; */
+    width: 50%;
+    word-wrap: break-word;
+    padding-top: 13rem;
+    /* text-align: center; */
+}
+.head{
+    /* text-align: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img1{
+    width: 50%;
+    /* border: 3px solid black; */
+    /* border-radius: 10px; */
+    background-image: url(/images/desktop/image-transform.jpg);
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.third{
+    display: flex;
+    /* gap: 20px; */
+    height: 550px;
+    width: 100%;
+}
+.img2{
+    width: 50%;
+    /* border: 3px solid black; */
+    /* border-radius: 10px; */
+    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.words2{
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    /* padding: 110px; */
+    width: 50%;
+    padding-top: 150px;
+}
+.head2{
+    /* text-align: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.forth{
+    display: flex;
+    /* gap: 20px; */
+    height: 550px;
+    width: 100%;
+}
+.words3a{
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    /* padding: 110px; */
+    width: 50%;
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    padding-top: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.head3a{
+    /* text-align: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.words3b{
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    /* padding: 110px; */
+    width: 50%;
+    background-image: url(/images/desktop/image-photography.jpg);
+    padding-top: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.head3b{
+    /* text-align: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.photo{
+    text-align: center;
+}
+.testimony{
+    padding-bottom: 70px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.fifty{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+.dot1{
+    height: 130px;
+    width: 130px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    background-image: url(/images/image-emily.jpg);
+    background-position: center;
+}
+.dot2{
+    height: 130px;
+    width: 130px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    background-image: url(/images/image-thomas.jpg);
+    background-position: center;
+}
+.dot3{
+    height: 130px;
+    width: 130px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    background-image: url(/images/image-jennie.jpg);
+    background-position: center;
+}
+.dot{
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.title{
+    padding: 30px;
+    padding-left: 100px;
+}
+.name{
+    padding-left: 30px;
+    font-family: fantasy;
+    font-size: larger;
+}
+    
+.five{
+    padding: 90px;
+}
+
+.role{
+    padding-top: 5px;
+}
+
+.sixty{
+    display: flex;
+    /* gap: 5px; */
+    height: 25rem;
+    width: 100%;
+}
+
+.aimg{
+    height: 25rem;
+    width: 25%;
+    background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bimg{
+    height: 25rem;
+    width: 25%;
+    background-image: url(/images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cimg{
+    height: 25rem;
+    width: 25%;
+    background-image: url(/images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dimg{
+    height: 25rem;
+    width: 25%;
+    background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+span {
+    display: block;
+}
+
+
+.word {
+    text-align: center;
+}
+
+.seventh{
+    background-color: rgb(180, 218, 180);
+    height: 12rem;
+    padding-block: 40px;
+
+}
+.sunnyfoot{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+.foothead{
+    text-align: center;
+    text-decoration: solid;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footimg{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 70px;
+}
+
+.footlogo{
+    text-align: center;
+    color: green;
+}
+.footservices{
+    color: white;
+}
